@@ -1,1 +1,1 @@
-COPY temp FROM '/home/felipe/Descargas/BlockbusterData.csv' (FORMAT 'csv', DELIMITER ';', NULL '-', HEADER 'true');
+COPY temp FROM '/home/felipe/environments/BlockbusterData.csv' (FORMAT 'csv', DELIMITER ';', NULL '-', HEADER 'true');
